@@ -62,7 +62,7 @@
 
   /* ---------- Countdown ---------- */
   (function(){
-    var target = new Date('2026-06-22T09:00:00+05:30').getTime();
+    var target = new Date('2026-08-27T10:11:00+05:30').getTime();
     var d=document.getElementById('cd-d'),h=document.getElementById('cd-h'),
         m=document.getElementById('cd-m'),s=document.getElementById('cd-s');
     function pad(n){return String(n).padStart(2,'0');}
